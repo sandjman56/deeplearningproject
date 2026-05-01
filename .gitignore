@@ -1,0 +1,38 @@
+# macOS
+.DS_Store
+
+# Editors / tooling
+.claude/
+.vscode/
+.idea/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.ipynb_checkpoints/
+
+# Jupyter
+*-checkpoint.ipynb
+
+# LaTeX build artifacts
+Project_Template/*.aux
+Project_Template/*.log
+Project_Template/*.out
+Project_Template/*.bbl
+Project_Template/*.blg
+Project_Template/*.synctex.gz
+Project_Template/*.toc
+Project_Template/*.fdb_latexmk
+Project_Template/*.fls
+Project_Template/*.pdf
+
+# Data: auto-downloaded by the notebook
+data/
+cmapss.zip
+
+# Course materials (not part of the deliverable)
+S26_24788_Project_Description.pdf
+S26_24788_Project_Template.pdf
